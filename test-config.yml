@@ -1,0 +1,22 @@
+config:
+  target: "http://localhost:3000" # URL de tu aplicación
+  phases:
+    - duration: 300 # Duración de la prueba en segundos
+      arrivalRate: 10 # Usuarios nuevos por segundo (total 600 solicitudes en 60 segundos)
+  headers: 
+    Content-Type: "application/json"
+    Cookie: "connect.sid=s%3Aa--IZWwYi12ElPe12eRl8l_qqP4JqCdF.RxlXdZhHJy4tvZdi37RvHEJDq%2FVzdKZoycIXeGLfFfs"
+scenarios:
+  - flow:
+      - get:
+          url: "/api/tickets/info/"
+      - get:
+          url: "/api/users/profile/"
+      - post:
+          url: "/api/tickets/crud/"
+      - get:
+          url: "/api/expenses/categories/"
+      - get:
+          url: "/api/partners/crud/"
+
+
