@@ -4,14 +4,15 @@ Este es el backend para el proyecto SEMTRA.
 
 ## Descripción
 
-[Agrega aquí una breve descripción del proyecto, qué hace y cuál es su propósito.]
+Este proyecto busca ser una base tecnológica sólida para un portal de comunicación entre asociados del Servicio Médico de Trabajadores (SEMTRA-2) y 
+sus funcionarios. 
 
 ## Prerrequisitos
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-*   Node.js v22.14.0 (esa usé yo, probablemente sirvan anteriores).
-*   Gestor de paquetes npm.
+*   **Node.js** v22.14.0 (esa usé yo, probablemente sirvan anteriores).
+*   Gestor de paquetes **npm**.
 *   **PostgreSQL**: Una instancia de base de datos PostgreSQL en ejecución. Deberás configurar la cadena de conexión en el archivo de configuración del proyecto.
 *   **Redis**: Una instancia de Redis en ejecución. Deberás configurar los detalles de conexión en el archivo de configuración del proyecto.
 
