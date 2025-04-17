@@ -63,3 +63,44 @@ Tambien necesita configurar lo siguiente:
 
 
 El servidor estará escuchando en el puerto especificado en tus variables de entorno (o un puerto por defecto, ej: 3000).
+
+## Documentación de Referencia
+
+Enlaces a la documentación necesaria para entender y trabajar en el proyecto.
+
+### 1. Dependencias de Node.js
+
+- Node.js: https://nodejs.org/es/docs/  
+- npm: https://docs.npmjs.com/  
+
+### 2. Framework y servidor
+
+- Express.js (usa [`src/app.js`](src/app.js) y [`src/index.js`](src/index.js))  
+  https://expressjs.com/es/guide/routing.html  
+
+### 3. ORM y Base de Datos
+
+- Sequelize (modelos en [`src/models/`](src/models/index.js))  
+  https://sequelize.org/master/  
+- PostgreSQL  
+  https://www.postgresql.org/docs/  
+
+### 4. Caché y Colas
+
+- Redis  
+  https://redis.io/documentation  
+
+### 5. Almacenamiento en la nube
+
+- Azure Blob Storage (servicio en [`src/services/blobStorage.js`](src/services/blobStorage.js))  
+  https://learn.microsoft.com/azure/storage/blobs/  
+
+### 6. Autenticación y OAuth
+
+- OAuth2 con Microsoft (rutas en [`src/routes/…`](src/routes/))  
+  https://learn.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow  
+
+### 7. Envío de correos
+
+- SMTP con Gmail  
+  https://developers.google.com/gmail/api/guides  
